@@ -25,11 +25,6 @@ fn main() {
         }
         let path = env::current_dir().expect("Failed to get current directory");
         let _ = write!(stderr, "{}\n\n", path.display());
-     } else if hook == "exit" {
-        let exit_code: i32 = args[2].parse().unwrap();
-        let _ = write!(stderr, "\n█\n"); 
-        let _ = stderr.flush(); 
-        std::process::exit(exit_code);
     } else if hook == "pwd" {
         let _ = write!(stderr, "▞ "); 
         let _ = stderr.flush();
@@ -37,7 +32,7 @@ fn main() {
         let _ = write!(stdout, "{}\n\n", path.display());
         let _ = stdout.flush();
     } else if hook == "read" {
-        let _ = write!(stderr, "▌ "); 
+        let _ = write!(stderr, "▛ "); 
         let _ = stderr.flush();
         let mut input = String::new();
         

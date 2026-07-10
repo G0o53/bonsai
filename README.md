@@ -31,5 +31,6 @@ cargo install --path .
 and `bonsai` is on your system! to use it, simply do
 ```bash
 hook builtins ~/.cargo/bin/bonsai
+hook exit default
 ```
 and you're done!
