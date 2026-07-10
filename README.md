@@ -15,7 +15,7 @@ A simple, yet beautiful, `YOM` plugin designed to show you symbols on the left h
 
 _if you like this, give it a 🌟_
 
-* Simply 4 things to remember, `▙` means echo, `▚` means cd, `▞` means pwd, and `▌` means read.
+* Simply 4 things to remember, `▙` means echo, `▚` means cd, `▞` means pwd, and `▛` means read.
 * Prints to `stderr`, so it won't mess up your pipes!
 * Written in Rust for maximum performance.
 
