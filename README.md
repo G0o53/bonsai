@@ -1,4 +1,5 @@
 # Bonsai 🪴
+![Static Badge](https://img.shields.io/badge/license-MIT-blue)
 
 A simple, yet beautiful, `YOM` plugin designed to show you symbols on the left hand side as commands run!
 
@@ -7,10 +8,12 @@ A simple, yet beautiful, `YOM` plugin designed to show you symbols on the left h
 
 ▚ /foo
 
-▌ read
+▛ read
 
 ▞ /foo
 ```
+
+_if you like this, give it a 🌟_
 
 * Simply 4 things to remember, `▙` means echo, `▚` means cd, `▞` means pwd, and `▌` means read.
 * Prints to `stderr`, so it won't mess up your pipes!
@@ -30,8 +33,3 @@ and `bonsai` is on your system! to use it, simply do
 hook builtins ~/.cargo/bin/bonsai
 ```
 and you're done!
-
-<p align="center">
-	<a href="https://github.com/G0o53/bonsai/blob/master/LICENSE"><img src="https://img.shields.io/static/v1.svg?style=for-the-badge&label=License&message=MIT&logoColor=d9e0ee&colorA=363a4f&colorB=b7bdf8"/></a>
-</p>
-
