@@ -1,8 +1,6 @@
 hook builtins ~/bonsai/target/release/bonsai
 
 echo "foo"
-cd /bin
+cd /tmp
+read $bar
 pwd
-read $VAR
-export e=E
-exit 0
