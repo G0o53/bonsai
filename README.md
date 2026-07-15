@@ -1,7 +1,7 @@
 # Bonsai 🪴
 ![Static Badge](https://img.shields.io/badge/license-MIT-blue)
 
-A simple, yet beautiful, `YOM` plugin designed to show you symbols on the left hand side as commands run!
+A simple, yet beautiful, [`YOM`](https://github.com/G0o53/yom) plugin designed to show you symbols on the left hand side as commands run!
 
 ```text
 ▙ foo
